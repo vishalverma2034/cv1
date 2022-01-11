@@ -1,0 +1,156 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+
+}
+h1
+{
+  /*margin: 0 auto 0 auto;
+  width:20%;
+  */
+  color: #66BFBF;
+  /**line-height: 2;**/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/** 100%=16px means 90px=562.5%  and 1em=16px so 90px=5.625em=562.5%  and these two are called dynamic font size and agar ham body me koi dusri dynmic value aur h1 me koi dusi to they both get added but if we give both places static value in px then h1 wala hi apply hoga and if we want to ignore parent size then use rem**/
+
+
+}
+h2
+{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.top-container{
+  background-color: #EAF9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container
+{
+  /*
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  */
+}
+.bottom-container
+{
+  /*
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  */
+  background-color: #66BFBF;
+  margin-top: 30px;
+}
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud
+{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+.top-cloud
+{
+  position: absolute;
+  right:300px;
+  top:50px;
+
+}
+.cool{
+  width:30%;
+  margin-top: 100px;
+
+}
+
+
+.skill-row
+{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.webd
+{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.cpp
+{
+  width:25%;
+  float:right;
+  margin-left:30px;
+
+}
+/**.webd-skills{
+  clear:left;
+
+}
+.cpp-skills{
+  clear:right;
+}
+**/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199a);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199a);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199a);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199a);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199a);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2cb4ad);
+  text-decoration: none;
+}
+.contact{
+  margin-bottom: 30px;
+
+}
+.lastpara
+{
+  margin-bottom: 0;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
